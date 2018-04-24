@@ -1,4 +1,4 @@
-package liblrary
+package library
 
 import "errors"
 
@@ -30,7 +30,7 @@ func (m *MusicManger) Get(index int) (music *MusicEntry, err error) {
 }
 
 func (m *MusicManger) Add(music *MusicEntry) {
-	m.musics = append(m.musics,*music)
+	m.musics = append(m.musics, *music)
 }
 func (m *MusicManger) Find(name string) *MusicEntry {
 	if len(m.musics) == 0 {
@@ -42,4 +42,36 @@ func (m *MusicManger) Find(name string) *MusicEntry {
 		}
 	}
 	return nil
+}
+
+func (m *MusicManger) Remove(index int) *MusicEntry {
+	if index < 0 || index >= len(m.musics) {
+		return nil
+	}
+	removeMusic := &m.musics[index]
+	//中间元素
+	if index < len(m.musics)-1 {
+		m.musics = append(m.musics[:index], m.musics[:index+1]...)
+	} else if index == 0 {
+		m.musics = make([]MusicEntry, 0)
+	} else {
+		m.musics = append(m.musics[:index-1])
+	}
+
+	return removeMusic
+}
+
+func (m *MusicManger) RemoveByName(name string) *MusicEntry {
+	var isPos int = -1
+	for index, value := range m.musics {
+		if value.Name == name {
+			isPos = index
+			break
+		}
+	}
+	if isPos < 0 {
+		return nil
+	}
+	removeMusic := m.Remove(isPos)
+	return removeMusic
 }
