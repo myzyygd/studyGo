@@ -7,7 +7,7 @@ type MusicEntry struct {
 	Name    string
 	ArtList string
 	Genre   string
-	source  string
+	Source  string
 	Type    string
 }
 type MusicManger struct {

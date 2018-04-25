@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07b04035-d37a-4661-bb52-f40fc8e0dc94" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/music/library/manger_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/music/main.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/music/mp/Mp3.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/music/mp/Play.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/music/mp/Wav.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/music/liblrary/SimpleMusic.go" afterPath="$PROJECT_DIR$/src/music/library/SimpleMusic.go" />
+      <change beforePath="$PROJECT_DIR$/src/music/library/SimpleMusic.go" afterPath="$PROJECT_DIR$/src/music/library/SimpleMusic.go" />
+      <change beforePath="$PROJECT_DIR$/src/music/library/manger_test.go" afterPath="$PROJECT_DIR$/src/music/library/SimpleMusic_test.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,25 +17,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="manger_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/music/library/manger_test.go">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/music/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleMusic.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/music/library/SimpleMusic.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="506">
+              <caret line="72" column="18" lean-forward="true" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
               <folding>
-                <element signature="e#17#32#0" expanded="true" />
+                <element signature="e#14#93#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,7 +50,15 @@
       <find>IP</find>
       <find>func IP</find>
       <find>IPMask</find>
+      <find>re</find>
+      <find>musics</find>
+      <find>Musics</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>Musics</replace>
+      <replace>musics</replace>
+    </replaceStrings>
   </component>
   <component name="GOROOT" path="D:\Go" />
   <component name="Git.Settings">
@@ -77,6 +80,14 @@
         <option value="$PROJECT_DIR$/src/music/liblrary/SimpleMusic.gp.go" />
         <option value="$PROJECT_DIR$/src/music/liblrary/SimpleMusic.go" />
         <option value="$PROJECT_DIR$/src/music/liblrary/manger_test.go" />
+        <option value="$PROJECT_DIR$/src/music/library/SimpleMusic_test.go" />
+        <option value="$PROJECT_DIR$/src/music/play.go" />
+        <option value="$PROJECT_DIR$/src/music/mp/play.go" />
+        <option value="$PROJECT_DIR$/src/music/mp/Wav.go" />
+        <option value="$PROJECT_DIR$/src/music/mp/Mp3.go" />
+        <option value="$PROJECT_DIR$/src/music/mp/Play.go" />
+        <option value="$PROJECT_DIR$/src/music/library/SimpleMusic.go" />
+        <option value="$PROJECT_DIR$/src/music/main.go" />
       </list>
     </option>
   </component>
@@ -119,6 +130,11 @@
             <path>
               <item name="socket" type="b2602c69:ProjectViewProjectNode" />
               <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
               <item name="pkg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -137,13 +153,6 @@
               <item name="socket" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="music" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="socket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="music" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="socket" type="b2602c69:ProjectViewProjectNode" />
@@ -170,6 +179,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\socket\src\music\mp" />
       <recent name="G:\socket\src\sorter\bubbless" />
       <recent name="G:\socket\src\parseStruct\MyStruct" />
     </key>
@@ -189,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
+  <component name="RunManager" selected="Go Build.go build main.go (3)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="socket" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -206,6 +216,14 @@
       <filePath value="$PROJECT_DIR$/src/sorter/main.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="socket" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/music/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="socket" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -214,21 +232,38 @@
       <filePath value="$PROJECT_DIR$/src/local/main.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <list size="3">
+    <configuration name="SimpleMusic_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="socket" />
+      <working_directory value="$PROJECT_DIR$/src/music/library" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/music/library/SimpleMusic_test.go" />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build main.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Build.go build main.go (1)" />
       <item index="2" class="java.lang.String" itemvalue="Go Build.go build main.go (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.SimpleMusic_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build main.go (3)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build main.go (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build main.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build main.go (1)" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build main.go (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.SimpleMusic_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build main.go (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build main.go (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SimpleMusic_test_go - 2018.04.24 at 14h 33m 49s.xml">
+      <configuration name="SimpleMusic_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -242,22 +277,23 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234957" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122492835" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19160838" sideWeight="0.5028653" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1256" height="676" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.49713466" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47272727" sideWeight="0.49713466" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22765364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27972028" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39944133" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986014" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -297,6 +333,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
           <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+          <folding>
+            <element signature="e#14#65#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -311,6 +350,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#65#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -318,6 +360,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#65#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -367,6 +412,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
           <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -396,6 +442,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#55#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -417,6 +466,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="88" column="51" lean-forward="true" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
+          <folding>
+            <element signature="e#14#65#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -424,6 +476,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="60" column="17" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -435,48 +488,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Go/src/builtin/builtin.go">
+    <entry file="file://D:/Go/src/testing/testing.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+        <state relative-caret-position="251">
+          <caret line="510" column="27" lean-forward="false" selection-start-line="510" selection-start-column="23" selection-end-line="510" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorter/main.go">
+    <entry file="file://$PROJECT_DIR$/Test Results - SimpleMusic_test_go.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/music/library/SimpleMusic_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
-            <element signature="e#14#94#0" expanded="false" />
+            <element signature="e#17#33#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/music/mp/Wav.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#12#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/music/mp/Mp3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#12#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/music/mp/Play.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#24#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sorter/readFile/read.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="e#18#67#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/music/library/manger_test.go">
+    <entry file="file://$PROJECT_DIR$/src/sorter/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        <state relative-caret-position="374">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/music/library/SimpleMusic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/music/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="72" column="18" lean-forward="true" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
           <folding>
-            <element signature="e#17#32#0" expanded="true" />
+            <element signature="e#14#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
