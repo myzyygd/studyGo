@@ -3,6 +3,7 @@ package Ipc
 import (
 	"encoding/json"
 	"log"
+	"runtime"
 )
 
 type IpcClient struct {
@@ -15,6 +16,7 @@ func NewIpcClient(server *IpcServer) *IpcClient {
 }
 
 func (client *IpcClient) Call(method string, params string) (resp *Response, err error) {
+	runtime.GOMAXPROCS(runtime.NumCPU())
 	req := &Request{method, params}
 	var resp1 Response
 	var b []byte
@@ -22,7 +24,7 @@ func (client *IpcClient) Call(method string, params string) (resp *Response, err
 	if err != nil {
 		return
 	}
-	log.Println(string(b),"aa")
+	log.Println(string(b), "aa")
 	client.conn <- string(b)
 	str := <-client.conn
 	log.Println("cccc")

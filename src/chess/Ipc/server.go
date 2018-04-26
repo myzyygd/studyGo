@@ -33,8 +33,9 @@ func (server *IpcServer) Connect() chan string {
 	session := make(chan string, 0)
 	go func(c chan string) {
 		for {
+			log.Println("eee")
 			request := <-c
-			log.Println(request,"vvv")
+			log.Println(request, "vvv")
 			if request == "CLOSE" {
 				break
 			}
